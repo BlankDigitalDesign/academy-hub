@@ -52,14 +52,14 @@
       height: 40px;
       font-size: 1rem;
       border-radius: 50px;
-      background: #1e0036;
+      background: #03045e;
       color: #fff;
-      box-shadow: -3px -2px 0px 2px #a43af8;
+      box-shadow: -3px -2px 0px 2px #00b4d8;
       cursor: pointer;
       margin: 1rem;
 
       &:hover {
-        box-shadow: 3px 2px 0px 2px #a43af8;
+        box-shadow: 3px 2px 0px 2px #00b4d8;
       }
     }
 
@@ -67,13 +67,13 @@
       width: 90%;
       text-align: center;
       font-size: 0.9rem;
-      color: #1e0036;
+      color: #03045e;
     }
 
     table {
       border-collapse: collapse;
       thead {
-        background: #1e0036f2;
+        background: #03045ef2;
         color: #fff;
 
         tr {
@@ -119,7 +119,7 @@
       border-collapse: collapse;
 
       thead {
-        background: #1e0036f2;
+        background: #03045ef2;
         color: #fff;
 
         tr {
@@ -129,8 +129,8 @@
         }
       }
       tbody {
-        background: #a43af8c4;
-        color: #1e0036;
+        background: #00b4d8c4;
+        color: #03045e;
         tr {
           td {
             border: none;

@@ -60,7 +60,7 @@ export default function CourseDetail() {
             <div className="courseDuration">
               <h4>
                 Course Duration:{" "}
-                <span style={{ color: "#a43af8" }}>
+                <span style={{ color: "#00b4d8" }}>
                   {data.courseDuration} Month{" "}
                 </span>
               </h4>
@@ -69,7 +69,7 @@ export default function CourseDetail() {
             <div className="noOfQuiz">
               <h4>
                 no. Of Quiz:{" "}
-                <span style={{ color: "#a43af8" }}>
+                <span style={{ color: "#00b4d8" }}>
                   {Number(data.noOfQuiz) < 10
                     ? `0${data.noOfQuiz}`
                     : data.noOfQuiz}
@@ -80,7 +80,7 @@ export default function CourseDetail() {
             <div className="leadTrainer">
               <h4>
                 Lead Trainer:{" "}
-                <span style={{ color: "#a43af8" }}>{data.leadTrainer}</span>
+                <span style={{ color: "#00b4d8" }}>{data.leadTrainer}</span>
               </h4>
             </div>
 
@@ -89,7 +89,7 @@ export default function CourseDetail() {
               <ul>
                 {data.assistantTrainer &&
                   data.assistantTrainer.map((value, index) => (
-                    <li key={index} style={{ color: "#a43af8" }}>
+                    <li key={index} style={{ color: "#00b4d8" }}>
                       {value}
                     </li>
                   ))}

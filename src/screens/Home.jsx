@@ -78,7 +78,7 @@ export default function Home() {
       <div className="shortInfo">
         <div className="course1">
           <h1 className="heading">Courses</h1>
-          <p>All our total courses so far.</p>
+          <p>All Courses</p>
           <h1>
             {course &&
               (course.length > 0) & (course.length < 10) &&
@@ -89,7 +89,7 @@ export default function Home() {
 
         <div className="quiz">
           <h1 className="heading">Quiz</h1>
-          <p>Total Quiz</p>
+          <p>Total Quizes</p>
           <h1>
             {quiz &&
               (quiz.length > 0) & (quiz.length < 10) &&
@@ -116,7 +116,7 @@ export default function Home() {
 
         <div className="trainer">
           <h1 className="heading">Teacher</h1>
-          <p>Total teacher</p>
+          <p>Total Teachers</p>
           <h1>
             {trainerRegistration &&
               (trainerRegistration.length > 0) &
@@ -133,7 +133,7 @@ export default function Home() {
 
       <div className="courses">
         <div className="heading">
-          <h1>Course</h1>
+          <h1>Courses</h1>
         </div>
 
         <div className="box">
@@ -165,7 +165,7 @@ export default function Home() {
 
       <div className="quiz12">
         <div className="heading">
-          <h1>Quiz</h1>
+          <h1>Quizes</h1>
         </div>
 
         <div className="box">

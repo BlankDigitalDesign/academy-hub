@@ -70,9 +70,9 @@
   .courseImage {
     width: 500px;
     border-radius: 15px;
-    border: 4px solid #a43af8;
-    outline: 5px solid #1e0036;
-    box-shadow: 0 0 0 9px #a43af8;
+    border: 4px solid #00b4d8;
+    outline: 5px solid #03045e;
+    box-shadow: 0 0 0 9px #00b4d8;
 
     img {
       width: 100%;
@@ -117,7 +117,7 @@
 
         &:active,
         &:focus {
-          outline: 2px solid #a43af8;
+          outline: 2px solid #00b4d8;
         }
       }
       .subjectName {
@@ -136,14 +136,14 @@
           height: 45px;
           font-size: 1rem;
           border-radius: 50px;
-          background: #1e0036;
+          background: #03045e;
           color: #fff;
-          box-shadow: -5px -6px 0px 2px #a43af8;
+          box-shadow: -5px -6px 0px 2px #00b4d8;
           margin: 1rem 0;
           cursor: pointer;
 
           &:hover {
-            box-shadow: 5px 6px 0px 2px #a43af8;
+            box-shadow: 5px 6px 0px 2px #00b4d8;
           }
         }
       }
